@@ -1,5 +1,5 @@
 resource "aws_security_group" "web" {
-  name        = "web"
+  name        = "web-sg"
   vpc_id      = tolist(data.aws_vpcs.my-vpc.ids)[0]
   description = "Allow HTTP/HTTPS"
   tags = {
