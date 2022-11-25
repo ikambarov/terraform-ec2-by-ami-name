@@ -8,7 +8,7 @@ variable "region" {
 
 variable "key_name" {
   type    = string
-  default = "laptop-key"
+  default = "my-key"
 }
 
 variable "public_key" {
